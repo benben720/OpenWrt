@@ -36,10 +36,10 @@ git_sparse_clone master https://github.com/syb999/openwrt-19.07.1 package/networ
 # 科学上网插件
 git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclash
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall2 package/luci-app-passwall2
-git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
+# git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 # git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall
 # git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
-# git clone --depth=1 https://github.com/VictC79/luci-app-vssr package/luci-app-vssr
+git clone --depth=1 https://github.com/VictC79/luci-app-vssr package/luci-app-vssr
 # git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
 # git clone --depth=1 https://github.com/kenzok8/openwrt-packages package/lua-maxminddb
 
